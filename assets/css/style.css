@@ -424,6 +424,17 @@ h6 {
   background: url("../img/sajid1.jpg") top right;
   background-size: cover;
 }
+/* custom hero img for mobile with*/
+@media (max-width: 776px) {
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/sajid1.jpg") top lavender;
+    background-size: cover;
+  }
+  
+}
+
 
 #hero .container {
   padding-top: 70px;
